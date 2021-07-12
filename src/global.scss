@@ -1,0 +1,13 @@
+@import 'base';
+@import 'default';
+
+.static-image {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  z-index: 2;
+  filter: drop-shadow(3px 3px 15px #1f1f1f96);
+  transform: rotate(15deg);
+}
